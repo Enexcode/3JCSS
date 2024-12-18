@@ -1,0 +1,296 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Hover Styles */
+  
+  /* 1. Scale */
+  .jjj_scale {
+    transition: transform 0.3s ease;
+  }
+  .jjj_scale:hover {
+    transform: scale(1.1);
+  }
+  
+  /* 2. Rotate */
+  .jjj_rotate {
+    transition: transform 0.3s ease;
+  }
+  .jjj_rotate:hover {
+    transform: rotate(10deg);
+  }
+  
+  /* 3. Shadow */
+  .jjj_shadow {
+    transition: box-shadow 0.3s ease;
+  }
+  .jjj_shadow:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 4. Opacity */
+  .jjj_opacity {
+    transition: opacity 0.3s ease;
+  }
+  .jjj_opacity:hover {
+    opacity: 0.7;
+  }
+  
+  /* 5. Skew */
+  .jjj_skew {
+    transition: transform 0.3s ease;
+  }
+  .jjj_skew:hover {
+    transform: skew(-10deg);
+  }
+  
+  /* 6. Slide Up */
+  .jjj_slide_up {
+    transition: transform 0.3s ease;
+  }
+  .jjj_slide_up:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* 7. Border Grow */
+  .jjj_border_grow {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  .jjj_border_grow:hover {
+    border-color: #f39200;
+  }
+  
+  /* 8. Color Change */
+  .jjj_color_change {
+    transition: background-color 0.3s ease;
+  }
+  .jjj_color_change:hover {
+    background-color: #f39200;
+  }
+  
+  /* 9. Flip */
+  .jjj_flip {
+    transition: transform 0.5s ease;
+  }
+  .jjj_flip:hover {
+    transform: rotateY(180deg);
+  }
+  
+  /* 10. Pulse */
+  .jjj_pulse {
+    transition: transform 0.3s ease;
+  }
+  .jjj_pulse:hover {
+    transform: scale(1.05);
+  }
+  
+  /* 11. Zoom Out */
+  .jjj_zoom_out {
+    transition: transform 0.3s ease;
+  }
+  .jjj_zoom_out:hover {
+    transform: scale(0.9);
+  }
+  
+  /* 12. Glow */
+  .jjj_glow {
+    transition: box-shadow 0.3s ease;
+  }
+  .jjj_glow:hover {
+    box-shadow: 0 0 15px #f39200;
+  }
+  
+  /* 13. Shake */
+  .jjj_shake {
+    transition: transform 0.3s ease;
+  }
+  .jjj_shake:hover {
+    transform: translateX(-5px) translateX(5px);
+  }
+  
+  /* 14. Rotate X */
+  .jjj_rotate_x {
+    transition: transform 0.3s ease;
+  }
+  .jjj_rotate_x:hover {
+    transform: rotateX(20deg);
+  }
+  
+  /* 15. Text Shadow */
+  .jjj_text_shadow {
+    transition: text-shadow 0.3s ease;
+  }
+  .jjj_text_shadow:hover {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* 16. Highlight */
+  .jjj_highlight {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #f39200 0%, #ffed00 100%);
+    transition: background-position 0.3s ease;
+  }
+  .jjj_highlight:hover {
+    background-position: right center;
+  }
+  
+  /* 17. Border Fade */
+  .jjj_border_fade {
+    border: 2px solid #f39200;
+    transition: border-color 0.3s ease;
+  }
+  .jjj_border_fade:hover {
+    border-color: transparent;
+  }
+  
+  /* 18. Ripple */
+  .jjj_ripple {
+    position: relative;
+    overflow: hidden;
+  }
+  .jjj_ripple::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(243, 146, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .jjj_ripple:hover::after {
+    opacity: 1;
+  }
+  
+  /* 19. Stretch */
+  .jjj_stretch {
+    transition: transform 0.3s ease;
+  }
+  .jjj_stretch:hover {
+    transform: scaleX(1.2);
+  }
+  
+  /* 20. Slide Right */
+  .jjj_slide_right {
+    transition: transform 0.3s ease;
+  }
+  .jjj_slide_right:hover {
+    transform: translateX(10px);
+  }
+  
+  /* 21. Blur */
+  .jjj_blur {
+    transition: filter 0.3s ease;
+  }
+  .jjj_blur:hover {
+    filter: blur(3px);
+  }
+  
+  /* 22. Inner Shadow */
+  .jjj_inner_shadow {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+    transition: box-shadow 0.3s ease;
+  }
+  .jjj_inner_shadow:hover {
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 23. Wave */
+  .jjj_wave {
+    transition: transform 0.3s ease;
+  }
+  .jjj_wave:hover {
+    transform: translateX(-5px) translateX(5px);
+  }
+  
+  /* 24. Glow Border */
+  .jjj_glow_border {
+    border: 2px solid #f39200;
+    box-shadow: 0 0 10px #f39200;
+    transition: box-shadow 0.3s ease;
+  }
+  .jjj_glow_border:hover {
+    box-shadow: 0 0 20px #f39200;
+  }
+  
+  /* 25. Jump */
+  .jjj_jump {
+    transition: transform 0.3s ease;
+  }
+  .jjj_jump:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* 26. Ripple Circle */
+  .jjj_ripple_circle {
+    position: relative;
+    overflow: hidden;
+  }
+  .jjj_ripple_circle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(243, 146, 0, 0.5);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  .jjj_ripple_circle:hover::after {
+    width: 150%;
+    height: 150%;
+  }
+  
+  /* 27. Gradient */
+  .jjj_gradient {
+    background: linear-gradient(45deg, #f39200, #ffed00);
+    transition: background-position 0.3s ease;
+  }
+  .jjj_gradient:hover {
+    background-position: 100% 100%;
+  }
+  
+  /* 28. Rotate Z */
+  .jjj_rotate_z {
+    transition: transform 0.3s ease;
+  }
+  .jjj_rotate_z:hover {
+    transform: rotateZ(15deg);
+  }
+  
+  /* 29. Pop Up */
+  .jjj_popup {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+  .jjj_popup:hover {
+    transform: scale(1.2);
+  }
+  
+  /* 30. Color Overlay */
+  .jjj_color_overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  .jjj_color_overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(243, 146, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .jjj_color_overlay:hover::before {
+    opacity: 1;
+  }
+  
