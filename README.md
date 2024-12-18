@@ -13,7 +13,7 @@ A lightweight and customizable CSS framework offering 30 unique hover effects to
 
 ## Installation:
 1. Clone or download this repository.
-2. Link the `style.css` file in your project.
+2. Link the `3jcss.css` file in your project.
 3. Apply the predefined CSS classes to your elements for instant hover effects.
 
 ```html
