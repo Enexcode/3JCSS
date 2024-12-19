@@ -87,12 +87,6 @@ div , footer {
 
 /*Hero section*/
 
-.container {
-	max-width: 1100px;
-	height: auto;
-	margin: 60px auto;
-}
-
 .hero {
 	margin: 50px auto; 
 	position: relative;
@@ -429,23 +423,14 @@ li .description {
 		display: none;
 		}
 
-	.job-title {
-		position: absolute;
-		font-size: 15px;
-		top: -40px;
-		right: 20px;
-		padding: 10px
-	}
+
 
 	.lead {
 		margin-top: 15px;
 		font-size: 20px;
 		line-height: 28px;
 	}
-	.container {
-		margin: 0px;
-		padding: 0 15px;
-	}
+
 	footer {
 		margin-top: 2050px;
 	}
@@ -455,7 +440,9 @@ li .description {
 		font-weight: 400;
 		color: #5B6A9A;
 		line-height: 26px;
-		margin-top: 8px;
 	}
 
 /* End of all :P*/
+a{
+	text-decoration: none !important;
+}
